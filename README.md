@@ -8,11 +8,13 @@ An additional step might be need to properly setup nginx domain, it’s depends 
 
 ```bench new-site erp.aaa.com```
 
+
 **Copy site database**
 
 ```Site database name locate at bench/sites/site_name/site_config.json```
 ```mysqldump -h'mariadb' -u'root' -p source_database_name > site_data.sql```
 ```mysql -h'mariadb' -u'root' -p target_database_name < site_data.sql```
+
 
 **Copy site file**
 
