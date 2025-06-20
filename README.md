@@ -38,3 +38,6 @@ cp -r sites/staging-erp.aaa.com/private/ sites/erp.aaa.com/private
 ```
 cp -r sites/staging-erp.aaa.com/public/ sites/erp.aaa.com/public
 ```
+
+
+Credit : [@pipech](https://discuss.frappe.io/t/tutorial-duplicate-erpnext-site/63152)
