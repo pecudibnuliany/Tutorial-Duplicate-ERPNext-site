@@ -6,7 +6,9 @@ An additional step might be need to properly setup nginx domain, it’s depends 
 
 **Create new site**
 
-```bench new-site erp.aaa.com```
+```
+bench new-site erp.aaa.com
+```
 
 
 **Copy site database**
