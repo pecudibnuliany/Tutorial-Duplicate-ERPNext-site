@@ -13,14 +13,28 @@ bench new-site erp.aaa.com
 
 **Copy site database**
 
-```Site database name locate at bench/sites/site_name/site_config.json```
-```mysqldump -h'mariadb' -u'root' -p source_database_name > site_data.sql```
-```mysql -h'mariadb' -u'root' -p target_database_name < site_data.sql```
+```
+Site database name locate at bench/sites/site_name/site_config.json
+```
+```
+mysqldump -h'mariadb' -u'root' -p source_database_name > site_data.sql
+```
+```
+mysql -h'mariadb' -u'root' -p target_database_name < site_data.sql
+```
 
 
 **Copy site file**
 
-```rm -rf sites/erp.aaa.com/private/```
-```rm -rf sites/erp.aaa.com/public/```
-```cp -r sites/staging-erp.aaa.com/private/ sites/erp.aaa.com/private```
-```cp -r sites/staging-erp.aaa.com/public/ sites/erp.aaa.com/public```
+```
+rm -rf sites/erp.aaa.com/private/
+```
+```
+rm -rf sites/erp.aaa.com/public/
+```
+```
+cp -r sites/staging-erp.aaa.com/private/ sites/erp.aaa.com/private
+```
+```
+cp -r sites/staging-erp.aaa.com/public/ sites/erp.aaa.com/public
+```
